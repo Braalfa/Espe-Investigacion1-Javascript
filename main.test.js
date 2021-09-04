@@ -51,7 +51,7 @@ describe('tests de forEach', () => {
     expect(forEach([0, 1, 2, 3], mockCallback)).toEqual([0, 2, 4, 6]);
   });
   
-  test('duplicacion de una lista', () => {
+  test('concatenacion a los elementos de una lista', () => {
     let mockCallback = jest.fn(x => "Hola: " + x);
     expect(forEach(["Pedro", "Ana", "Pepe"], mockCallback)).toContain("Hola: Ana");
     expect(mockCallback.mock.calls.length).toBe(3);
