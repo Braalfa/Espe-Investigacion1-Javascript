@@ -30,7 +30,7 @@ function mirrorWord(word){
 /**
  * Funcion que indica si un numero es mayor que 1000 y se ejecuta de manera asincrona
  * @param {*} a Numero a comparar con 1000
- * @returns Resultado booleano de la comparacion
+ * @returns Promesa con el resultado booleano de la comparacion
  */
 function biggerThanAThousand(a){
     return new Promise((resolve) => {
