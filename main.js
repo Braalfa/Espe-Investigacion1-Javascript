@@ -16,7 +16,7 @@ function euclidianAlgorithm(a, b) {
  };
 
 /**
- * Funcion para convertir una palabara en un palindromo al duplicarla
+ * Funcion para convertir una palabra en un palindromo al duplicarla
  * de manera inversa
  * @param {*} word Palabra a converir en un palindromo
  * @returns Palindromo
