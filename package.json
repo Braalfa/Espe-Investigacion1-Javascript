@@ -1,0 +1,26 @@
+{
+  "name": "espe-investigacion1-javascript",
+  "version": "1.0.0",
+  "description": "An example of the implementation of unit testing in javascript",
+  "main": "main.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node main" 
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Braalfa/Espe-Investigacion1-Javascript.git"
+  },
+  "keywords": [
+    "unit",
+    "test",
+    "espe",
+    "investigacion1"
+  ],
+  "author": "Brayan Alfaro/Julian Camacho",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Braalfa/Espe-Investigacion1-Javascript/issues"
+  },
+  "homepage": "https://github.com/Braalfa/Espe-Investigacion1-Javascript#readme"
+}
